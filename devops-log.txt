@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "artifactory.py", line 5, in <module>
+    art_api_key    = os.environ['ARTIFACTORY_API_KEY']
+  File "/usr/lib/python3.6/os.py", line 669, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'ARTIFACTORY_API_KEY'
